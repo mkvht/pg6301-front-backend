@@ -1,8 +1,5 @@
 # Project exclude paths
-/client/node_modules/
 /node_modules/
-/server/node_modules/
-/client/.parcel-cache/
-/client/dist/
-/client/node_modules/
 /.idea/
+.parcel-cache/
+dist/
