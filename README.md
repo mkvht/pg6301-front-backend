@@ -6,9 +6,10 @@
   * [x] Server project with nodemon, express, body-parser, cookie-parser, dotenv
 * [x] Get endpoint in express
 * [x] Husky + Prettier
-* [ ] Deploy Heroku
-  * [ ] npm build => client npm install --include=dev && server npm install
-  * [ ] npm start => node server.js
+* [x] Deploy Heroku
+  * [x] npm build => client npm install --include=dev && server npm install
+  * [x] npm start => node server.js
+* [ ] Serve react app from express
 * [ ] GET /api/login from frontpage
   * [ ] Fetch data from server
   * [ ] Loading time
