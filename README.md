@@ -1,11 +1,11 @@
 # Communication between frontend and backend
 
-* [ ] Create frontend & backend
-  * [ ] Root project with concurrently, prettier and husky
-  * [ ] Client project with parcel, react react-dom react router
-  * [ ] Server project with nodemon, express, body-parser, cookie-parser, dotenv
-* [ ] Get endpoint in express
-* [ ] Husky + Prettier
+* [x] Create frontend & backend
+  * [x] Root project with concurrently, prettier and husky
+  * [x] Client project with parcel, react react-dom react router
+  * [x] Server project with nodemon, express, body-parser, cookie-parser, dotenv
+* [x] Get endpoint in express
+* [x] Husky + Prettier
 * [ ] Deploy Heroku
   * [ ] npm build => client npm install --include=dev && server npm install
   * [ ] npm start => node server.js
