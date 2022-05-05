@@ -1,0 +1,21 @@
+{
+  "name": "pg6301-front-backend",
+  "version": "1.0.0",
+  "description": "* [ ] Create frontend & backend\r   * [ ] Root project with concurrently, prettier and husky\r   * [ ] Client project with parcel, react react-dom react router\r   * [ ] Server project with nodemon, express, body-parser, cookie-parser, dotenv\r * [ ] Get endpoint in express\r * [ ] Husky + Prettier\r * [ ] Deploy Heroku\r   * [ ] npm build => client npm install --include=dev && server npm install\r   * [ ] npm start => node server.js\r * [ ] GET /api/login from frontpage\r   * [ ] Fetch data from server\r   * [ ] Loading time\r   * [ ] Handle error\r * [ ] POST /api/login from login form\r   * [ ] Loading time\r   * [ ] Handle error\r * [ ] Refactor and polish fetch and error handling\r   * [ ] Custom react hook 'useLoader'",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently npm:dev:client npm:dev:server",
+    "dev:client": "cd client && npm run dev",
+    "dev:server": "cd server && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "husky": "^7.0.4",
+    "prettier": "^2.6.2"
+  }
+}
