@@ -9,11 +9,11 @@
 * [x] Deploy Heroku
   * [x] npm build => client npm install --include=dev && server npm install
   * [x] npm start => node server.js
-* [ ] Serve react app from express
-* [ ] GET /api/login from frontpage
-  * [ ] Fetch data from server
-  * [ ] Loading time
-  * [ ] Handle error
+* [x] Serve react app from express
+* [x] GET /api/login from frontpage
+  * [x] Fetch data from server
+  * [x] Loading time
+  * [x] Handle error
 * [ ] POST /api/login from login form
   * [ ] Loading time
   * [ ] Handle error
